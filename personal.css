@@ -1,0 +1,31 @@
+li.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px;
+}
+
+header.style_head {
+    background-color: rgb(97, 0, 31);
+}
+
+a.header_nav_elements {
+    color: rgb(54, 134, 134);
+}
+
+a:visited {
+    color: rgb(255, 1, 1);
+}
+
+
+
+hr.bordered {
+    background-color: black;
+    height: 10px;
+    border: none;
+}
+
+h1.name {
+    color: rgb(255, 0, 0);
+    border: none;
+    font-size: 33px;
+}

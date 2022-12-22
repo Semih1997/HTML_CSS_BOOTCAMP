@@ -9,22 +9,22 @@
 </head>
 
 <body>
+    <h1>Race Registration!</h1>
     <form action="">
-        <h1>Race Registration!</h1>
         <div>
             <label for="first">First Name</label>
-            <input type="text" required>
+            <input type="text" required id="first" name="first">
             <label for="last">Last Name</label>
-            <input type="text" required>
+            <input type="text" required id="last" name="last">
         </div>
         <br>
         <div>
             Select a Race:<br><br>
-            <input type="radio" name="racetype" id="funrun">
+            <input type="radio" name="racetype" id="funrun" value="funrun">
             <label for="funrun">Fun Run 5k</label><br>
-            <input type="radio" name="racetype" id="half">
+            <input type="radio" name="racetype" id="half" value="half">
             <label for="half">Half Marathon</label><br>
-            <input type="radio" name="racetype" id="full">
+            <input type="radio" name="racetype" id="full" value="full">
             <label for="full">Full Marathon</label><br>
         </div>
         <div>
@@ -36,9 +36,9 @@
         <div>
             <label for="age">Selecet Age Group</label>
             <select name="age" id="age">Select Age Group
-                <option value="">under 18</option>
-                <option value="">18-40</option>
-                <option value="">40+</option>
+                <option value="under18">under 18</option>
+                <option value="teen">18-40</option>
+                <option value="adult">40+</option>
             </select>
         </div>
         <button>Register!</button>

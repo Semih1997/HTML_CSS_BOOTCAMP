@@ -10,39 +10,47 @@
 
 <body>
     <h1>Join Form</h1>
+    <hr>
     <form action="glatasaray.html">
         <article>
             <label for="username">Enter Username :</label>
             <input type="text" placeholder="Username" id="username" name="username">
-        </article>
-        <hr>
-        <article>
-            <label for="password">Enter Password :</label>
-            <input id="password" type="password" placeholder="Password" name="password">
-        </article>
-        <hr>
-        <article>
-            <label for="range">Your Interest :</label>
-            <input type="range" id="range" name="interest">
-        </article>
-        <hr>
-        <article>
-            <label for="like">Check Like</label>
-            <input type="checkbox" id="like" name="check_like">
-            <label for="dislike">Check Don't Like</label>
-            <input type="checkbox" id="dislike" name="check_dont_like">
-        </article>
-        <hr>
-        <article>
-            <label for="birth">Enter Your Birth Date</label>
-            <input type="date" id="birth" name="birth_date">
-        </article>
-        <hr>
-        <button>Click</button>
-        <!-- if dont give any type and put the button in a form is submits the form and try to go to action page!-->
+            <hr>
+            <article>
+                <label for="password">Enter Password :</label>
+                <input id="password" type="password" placeholder="Password" name="password">
+                <hr>
+                <label for="range">Your Interest :</label>
+                <input type="range" id="range" name="interest">
+                <hr>
+                <label for="like">Check Like</label>
+                <input type="checkbox" id="like" name="check_like">
+                <label for="dislike">Check Don't Like</label>
+                <input type="checkbox" id="dislike" name="check_dont_like">
+                <hr>
+                <label for="birth">Enter Your Birth Date</label>
+                <input type="date" id="birth" name="birth_date">
+                <hr>
+                <label for="gs">Galatasaray</label>
+                <input type="radio" name="team" id="gs" value="cimbom">
+                <label for="bjk">Besiktas</label>
+                <input type="radio" name="team" id="bjk" value="kartal">
+                <label for="fb">Fenerbahçe</label>
+                <input type="radio" name="team" id="fb" value="fener">
+                <hr>
+                <label for="animal">Select your favorite animal</label>
+                <select name="anim" id="animal">
+                    <option value="kartal">Eagle</option>
+                    <option value="aslan">Leon</option>
+                    <option value="cikcik">CikCikBird</option>
+                </select>
+                <hr>
+            </article>
+            <button>Click</button>
+            <!-- if dont give any type and put the button in a form is submits the form and try to go to action page!-->
     </form>
     <hr>
-    <button>Quit</button>
+    <button type="button">Quit</button>
 </body>
 
 </html>

@@ -14,11 +14,11 @@
     <form action="glatasaray.html">
         <article>
             <label for="username">Enter Username :</label>
-            <input type="text" placeholder="Username" id="username" name="username">
+            <input type="text" placeholder="Username" id="username" name="username" required minlength="6"
+                maxlength="20">
             <hr>
-
             <label for="password">Enter Password :</label>
-            <input id="password" type="password" placeholder="Password" name="password">
+            <input id="password" type="password" placeholder="Password" name="password" required>
             <hr>
             <label for="range">Your Interest :</label>
             <input type="range" id="range" min="0" max="10" name="interest_level" value="5">

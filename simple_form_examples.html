@@ -16,38 +16,52 @@
             <label for="username">Enter Username :</label>
             <input type="text" placeholder="Username" id="username" name="username">
             <hr>
-            <article>
-                <label for="password">Enter Password :</label>
-                <input id="password" type="password" placeholder="Password" name="password">
-                <hr>
-                <label for="range">Your Interest :</label>
-                <input type="range" id="range" name="interest">
-                <hr>
-                <label for="like">Check Like</label>
-                <input type="checkbox" id="like" name="check_like">
-                <label for="dislike">Check Don't Like</label>
-                <input type="checkbox" id="dislike" name="check_dont_like">
-                <hr>
-                <label for="birth">Enter Your Birth Date</label>
-                <input type="date" id="birth" name="birth_date">
-                <hr>
-                <label for="gs">Galatasaray</label>
-                <input type="radio" name="team" id="gs" value="cimbom">
-                <label for="bjk">Besiktas</label>
-                <input type="radio" name="team" id="bjk" value="kartal">
-                <label for="fb">Fenerbahçe</label>
-                <input type="radio" name="team" id="fb" value="fener">
-                <hr>
-                <label for="animal">Select your favorite animal</label>
-                <select name="anim" id="animal">
-                    <option value="kartal">Eagle</option>
-                    <option value="aslan">Leon</option>
-                    <option value="cikcik">CikCikBird</option>
-                </select>
-                <hr>
-            </article>
-            <button>Click</button>
-            <!-- if dont give any type and put the button in a form is submits the form and try to go to action page!-->
+
+            <label for="password">Enter Password :</label>
+            <input id="password" type="password" placeholder="Password" name="password">
+            <hr>
+            <label for="range">Your Interest :</label>
+            <input type="range" id="range" min="0" max="10" name="interest_level" value="5">
+            <hr>
+            <label for="like">Check Like</label>
+            <input type="checkbox" id="like" name="check_like">
+            <label for="dislike">Check Don't Like</label>
+            <input type="checkbox" id="dislike" name="check_dont_like">
+            <hr>
+            <label for="birth">Enter Your Birth Date</label>
+            <input type="date" id="birth" name="birth_date">
+            <hr>
+        </article>
+        <button>Click For First Form</button>
+        <hr>
+        <hr>
+        <hr>
+    </form>
+    <form action="personal.html">
+        <article>
+            <label for="gs">Galatasaray</label>
+            <input type="radio" name="team" id="gs" value="cimbom">
+            <label for="bjk">Besiktas</label>
+            <input type="radio" name="team" id="bjk" value="kartal">
+            <label for="fb">Fenerbahçe</label>
+            <input type="radio" name="team" id="fb" value="fener">
+            <hr>
+            <label for="animal">Select your favorite animal</label>
+            <select name="anim" id="animal">
+                <option value="kartal">Eagle</option>
+                <option value="aslan" selected>Leon</option>
+                <option value="cikcik">CikCikBird</option>
+            </select>
+            <hr>
+        </article>
+        <button>Click For Second Form</button>
+        <!-- if dont give any type and put the button in a form is submits the form and try to go to action page!-->
+    </form>
+    <hr>
+    <form action="">
+        <label for="feedbacks">Your Feedbacks!</label><br>
+        <textarea id="feedbacks" name="feeds" placeholder="Give us your speacial feedbacks:)" cols="40"
+            rows="10"></textarea>
     </form>
     <hr>
     <button type="button">Quit</button>

@@ -16,7 +16,11 @@ a:visited {
     color: rgb(255, 1, 1);
 }
 
-
+button.google {
+    background-color: rgb(255, 0, 0);
+    color: rgb(4, 5, 85);
+    font-family: fantasy;
+}
 
 hr.bordered {
     background-color: black;

@@ -2,8 +2,7 @@ body {
     margin: 0;
     background: black;
     background: linear-gradient(to bottom, red, yellow, black);
-
-
+    background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%;
     width: 100%;

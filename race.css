@@ -19,7 +19,6 @@ input[type="text"] {
 input[type="email"] {
     color: orange;
     background-color: black;
-    text-align: right;
 }
 
 input[type="password"] {
@@ -31,6 +30,7 @@ input[type="password"] {
 input[type="email"]::placeholder {
     font-size: 10px;
     color: red;
+    text-align: right;
 }
 
 input[type="password"]::placeholder {

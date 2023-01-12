@@ -2,4 +2,55 @@ body {
     background: conic-gradient(rgb(0, 0, 0), rgb(255, 0, 0), rgb(51, 255, 0), black, rgb(255, 0, 0), rgb(30, 255, 0));
     background-repeat: no-repeat;
     background-attachment: fixed;
+    text-align: left;
+}
+
+input {
+    border: 0px;
+    border-radius: 600px;
+    text-align: center;
+}
+
+input[type="text"] {
+    color: orange;
+    background-color: black;
+}
+
+input[type="email"] {
+    color: orange;
+    background-color: black;
+    text-align: right;
+}
+
+input[type="password"] {
+    color: orange;
+    background-color: black;
+    font-weight: bold;
+}
+
+label {
+    color: orange;
+}
+
+label.pass {
+    font-weight: bold;
+}
+
+select {
+    border: 0px;
+    border-radius: 600px;
+    background-color: orange;
+    color: black;
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    color: orange;
+    border-color: chartreuse;
+    border-radius: 600px;
+}
+
+h1.head_write {
+    color: black;
 }

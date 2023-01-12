@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h1>Race Registration!</h1>
+    <h1 class="head_write">Race Registration!</h1>
     <form action="glatasaray.html">
         <div>
             <label for="first">First Name</label>
@@ -20,7 +20,9 @@
         </div>
         <br>
         <div>
-            <p>Select a Race:</p>
+            <div>
+                <label>Select a Race:</label>
+            </div>
             <input type="radio" name="racetype" id="funrun" value="funrun">
             <label for="funrun">Fun Run 5k</label><br>
             <input type="radio" name="racetype" id="half" value="half">
@@ -30,9 +32,9 @@
         </div><br>
         <div>
             <label for="mail">Email</label>
-            <input type="email" required name="mail" id="mail">
-            <label for="passw">Password</label>
-            <input type="password" id="passw" name="passw" required>
+            <input type="email" required name="mail" id="mail" placeholder="@...mail.com">
+            <label for="passw" class="pass">Password</label>
+            <input type="password" id="passw" name="passw" required placeholder="Password">
         </div><br>
         <div>
             <label for="age">Selecet Age Group</label>

@@ -28,6 +28,20 @@ input[type="password"] {
     font-weight: bold;
 }
 
+input[type="email"]::placeholder {
+    font-size: 10px;
+    color: red;
+}
+
+input[type="password"]::placeholder {
+    font-size: 10px;
+    color: red;
+}
+
+option:hover:active {
+    background-color: orange;
+}
+
 label {
     color: orange;
 }

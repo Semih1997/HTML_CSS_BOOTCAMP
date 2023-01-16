@@ -38,8 +38,9 @@ input[type="password"]::placeholder {
     color: red;
 }
 
-option:hover:active {
-    background-color: orange;
+button:hover {
+    background-color: rgb(149, 97, 0);
+    color: white;
 }
 
 label {
@@ -65,6 +66,6 @@ button {
     border-radius: 600px;
 }
 
-h1.head_write {
-    color: black;
+.head_write {
+    color: rgb(0, 0, 0);
 }

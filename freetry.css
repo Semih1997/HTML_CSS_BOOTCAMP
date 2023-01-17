@@ -1,0 +1,25 @@
+.main {
+    background-color: black;
+    height: 600px;
+    width: 600px;
+}
+
+section {
+    margin: 0px;
+    padding: 0px;
+}
+
+.line {
+    width: 105%;
+    height: 200px;
+    font-size: 0;
+}
+
+.table {
+    background: linear-gradient(rgb(18, 61, 24), rgb(74, 10, 43), rgb(53, 18, 18));
+    height: 100%;
+    width: 200px;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 0;
+}

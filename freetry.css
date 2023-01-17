@@ -2,14 +2,9 @@
     background: radial-gradient(yellow, red, black);
     height: 600px;
     width: 600px;
-    position: relative;
-    top: 0px;
+    position: absolute;
+    top: 70px;
     left: 10px;
-}
-
-section {
-    margin: 0px;
-    padding: 0px;
 }
 
 .line {
@@ -37,13 +32,18 @@ section {
 }
 
 .table1 {
-    background: linear-gradient(rgb(149, 255, 0), rgb(255, 0, 0), rgb(49, 11, 11));
+    background: red;
     height: 200px;
     width: 200px;
-    display: inline-block;
     border-radius: 50%;
-    font-size: 0;
-    position: relative;
+    position: absolute;
+    top: 70px;
     left: 610px;
-    top: 0px;
+
+}
+
+.table1:hover {
+    background: red;
+    transition: 2s;
+    border-radius: 0px;
 }

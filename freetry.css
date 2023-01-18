@@ -1,10 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(blue, purple, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
 .main {
     background: radial-gradient(yellow, red, black);
     height: 600px;
     width: 600px;
-    position: absolute;
-    top: 70px;
-    left: 10px;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 15px;
 }
 
 .line {
@@ -32,18 +41,31 @@
 }
 
 .table1 {
-    background: red;
+    /*transition doesnt work properly with gradients*/
+    background: linear-gradient(rgb(149, 255, 0), rgb(255, 0, 0), rgb(49, 11, 11));
     height: 200px;
     width: 200px;
     border-radius: 50%;
     position: absolute;
-    top: 70px;
-    left: 610px;
-
+    top: 60px;
+    left: 615px;
+    transition-timing-function: ease-in;
+    transition: 2s;
+    /* if transition write here it slowly back when you unhover.*/
 }
 
 .table1:hover {
+    /*transition doesnt work properly with gradients*/
     background: red;
-    transition: 2s;
-    border-radius: 0px;
+
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: red;
+    background-color: black;
+    height: 60px;
 }

@@ -47,17 +47,16 @@ body {
     width: 200px;
     border-radius: 50%;
     position: absolute;
-    top: 60px;
-    left: 615px;
-    transition-timing-function: ease-in;
-    transition: 2s;
+    top: 0px;
+    left: 0px;
+    transition-timing-function: ease-out;
+    transition: 1s;
     /* if transition write here it slowly back when you unhover.*/
 }
 
-.table1:hover {
+.table1:active {
     /*transition doesnt work properly with gradients*/
     background: red;
-
     border-radius: 10px;
     margin-left: 200px;
 }
@@ -68,4 +67,59 @@ h1 {
     color: red;
     background-color: black;
     height: 60px;
+}
+
+.merak_label {
+    position: absolute;
+    background-color: rgb(32, 18, 94);
+    top: 260px;
+    left: 615px;
+    height: 200px;
+    width: 400px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+button {
+    color: black;
+    border-color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+}
+
+.merak_label2 {
+    position: absolute;
+    background-color: rgb(32, 18, 94);
+    top: 60px;
+    left: 615px;
+    height: 200px;
+    width: 400px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.table2 {
+    /*transition doesnt work properly with gradients*/
+    background: linear-gradient(rgb(149, 255, 0), rgb(255, 0, 0), rgb(49, 11, 11));
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition-timing-function: ease-out;
+    transition: 1s;
+    /* if transition write here it slowly back when you unhover.*/
+}
+
+.table2:hover {
+    /*transition doesnt work properly with gradients*/
+    background: red;
+    border-radius: 10px;
+    margin-left: 200px;
 }

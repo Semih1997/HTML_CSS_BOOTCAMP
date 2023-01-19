@@ -23,7 +23,7 @@ body {
 }
 
 .table {
-    background: linear-gradient(rgb(149, 255, 0), rgb(255, 0, 0), rgb(49, 11, 11));
+    background: linear-gradient(rgb(149, 255, 0), rgb(255, 0, 0), rgb(0, 0, 0));
     height: 100%;
     width: 200px;
     display: inline-block;
@@ -42,7 +42,7 @@ body {
 
 .table1 {
     /*transition doesnt work properly with gradients*/
-    background: linear-gradient(rgb(149, 255, 0), rgb(255, 0, 0), rgb(49, 11, 11));
+    background: linear-gradient(rgb(149, 255, 0), rgb(255, 0, 0), rgb(0, 0, 0));
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -105,7 +105,7 @@ button {
 
 .table2 {
     /*transition doesnt work properly with gradients*/
-    background: linear-gradient(rgb(149, 255, 0), rgb(255, 0, 0), rgb(49, 11, 11));
+    background: linear-gradient(rgb(149, 255, 0), rgb(255, 0, 0), rgb(0, 0, 0));
     height: 200px;
     width: 200px;
     border-radius: 50%;

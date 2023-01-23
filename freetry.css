@@ -67,6 +67,9 @@ h1 {
     color: red;
     background-color: black;
     height: 60px;
+    font-family: 'Explora', cursive;
+    font-weight: 700px;
+    font-size: 50px;
 }
 
 .merak_label {

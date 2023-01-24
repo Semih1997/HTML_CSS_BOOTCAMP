@@ -28,10 +28,10 @@ a:hover {
 }
 
 img {
-    width: 29.7%;
+    width: 29%;
     height: 350px;
     margin: calc(10%/6);
-    border: 2px solid;
+    border: 3px solid;
     border-radius: 5px;
     border-color: rgb(182, 143, 85);
 }

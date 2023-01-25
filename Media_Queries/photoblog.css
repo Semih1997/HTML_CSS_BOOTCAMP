@@ -41,3 +41,16 @@ img:hover {
     box-shadow: 15px 15px 15px -7px #223834;
     transform: translateY(-5px) translateX(-2px);
 }
+
+@media (max-width: 800px) {
+    img {
+        width: 27%;
+        height: 200px;
+    }
+
+    nav a {
+        font-size: 20px;
+        margin: auto;
+        padding: auto;
+    }
+}

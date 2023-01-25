@@ -76,20 +76,24 @@ div.div5 {
     margin: 0 auto;
     /* margin: 0 auto; to center the border */
     display: flex;
+    margin-bottom: 50px;
 }
 
 section .head {
     background-color: darkkhaki;
     flex: 1 2 200px;
+    height: auto;
 }
 
 section .footer {
     flex: 1 2 200px;
     background-color: darkkhaki;
+    height: auto;
 }
 
 section .content {
     flex: 2 1 700px;
     background-color: mediumseagreen;
+    height: auto;
     /* flex: 2 1 700px; ilki flex katları yani 2 olursa diğerlerinin 2 katı alan alır 2.si shrink yani 2 olursa 1 den önce küçülmeye başlar yok olur sonuncu flex-basis ilk anda gözükeceği ölçü bir birimle birlikte yazılması gerek diğerlerinin aksine.*/
 }

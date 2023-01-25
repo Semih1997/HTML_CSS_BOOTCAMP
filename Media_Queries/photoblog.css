@@ -16,11 +16,42 @@ nav {
     text-transform: uppercase;
     font-family: 'Times New Roman', cursive;
     font-family: 'Times New Roman', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
     text-decoration: none;
     color: rgb(155, 136, 72);
+}
+
+a.mygithub {
+    /* flex: 1 1; */
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    flex-shrink: 1;
+}
+
+#social_media {
+    border: 1px solid salmon;
+    position: absolute;
+    top: auto;
+    right: 0px;
+    font-size: 17px;
+    text-transform: none;
+    flex-shrink: 2;
+    padding: 0px;
+    margin: 10px;
+    /* flex: 1 2; */
+}
+
+div a {
+    padding: 5px;
 }
 
 a:hover {
@@ -48,9 +79,13 @@ img:hover {
         height: 200px;
     }
 
-    nav a {
+    .mygithub {
         font-size: 20px;
         margin: auto;
         padding: auto;
+    }
+
+    #social_media {
+        font-size: 12px;
     }
 }

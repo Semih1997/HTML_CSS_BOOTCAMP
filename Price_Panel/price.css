@@ -1,11 +1,11 @@
 body {
     background: linear-gradient(rgb(143, 139, 139), rgb(179, 109, 179), rgb(64, 174, 238), rgb(179, 109, 179), rgb(143, 139, 139));
+    background-size: cover;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 100vh;
-    transition: 0.5s;
+
     font-family: 'Explora', cursive;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -75,7 +75,6 @@ h1 {
     color: rgb(0, 0, 0);
     border: 1px solid black;
     padding: 5px;
-    margin-top: -70px;
 }
 
 li {
@@ -101,6 +100,19 @@ li {
     margin-bottom: 15px;
 }
 
+button {
+    background: rgba(0, 0, 0, 0.614);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(249, 248, 248);
+    transition: all .2s;
+}
+
+button:hover {
+    background: rgba(133, 13, 13, 0.382);
+    transform: translateX(-1px) translateY(-1px);
+}
+
 #each_panel:hover {
     background-image: url(https://img.freepik.com/free-photo/travel-concept-with-lugagge-hat_23-2149030570.jpg?w=740&t=st=1674700880~exp=1674701480~hmac=d2b22c7c9055579a4e57df20588bac155bdc1b7e95aaf8af82c6394e63b91bc7);
 }
@@ -115,4 +127,11 @@ li {
 
 #each_panel:hover .buy {
     display: block;
+}
+
+@media (max-width: 1300px) {
+    .container_main {
+        flex-direction: column;
+        align-items: center;
+    }
 }

@@ -2,8 +2,12 @@
     padding: 10px 0 10px 0;
 }
 
-button {
+.btn-group {
     border-radius: 50% !important;
+}
+
+button {
+    display: contents;
 }
 
 body {

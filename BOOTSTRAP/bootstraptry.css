@@ -6,13 +6,9 @@
     border-radius: 50% !important;
 }
 
-button {
-    display: contents;
-}
-
 body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0;
@@ -29,4 +25,10 @@ h1 {
 .container {
     padding: 0;
     padding-bottom: 5px;
+}
+
+#alertted {
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
 }

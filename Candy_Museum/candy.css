@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+.each-row {
+    margin-top: 100px;
+}
+
 #mainNav {
     font-size: 1.5rem;
     font-weight: 200;
@@ -49,7 +53,9 @@ body {
 
 #headingGroup1 h2 {
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 1.125rem;
+    color: #f498b8;
+    line-height: 2;
 }
 
 @media (max-width: 1500px) {
@@ -60,6 +66,12 @@ body {
 
     #headingGroup1 h2 {
         font-weight: 100;
-        font-size: 2rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:1500px) {
+    #icon {
+        display: none;
     }
 }

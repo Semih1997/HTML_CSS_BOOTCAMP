@@ -1,6 +1,7 @@
 body {
     background-color: #f5d9d5;
     font-family: "Nunito", sans-serif;
+    padding: 0;
 }
 
 #mainNav {
@@ -33,5 +34,32 @@ body {
     #headingGroup h1 {
         font-weight: 100;
         font-size: 3rem;
+    }
+}
+
+#headingGroup1 span {
+    color: #EA1C2C;
+}
+
+#headingGroup1 h1 {
+    font-weight: 100;
+    font-size: 3rem;
+    color: #EA1C2C;
+}
+
+#headingGroup1 h2 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+@media (max-width: 1500px) {
+    #headingGroup1 h1 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+
+    #headingGroup1 h2 {
+        font-weight: 100;
+        font-size: 2rem;
     }
 }

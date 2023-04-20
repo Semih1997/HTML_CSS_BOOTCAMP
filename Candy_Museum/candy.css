@@ -47,13 +47,13 @@ body {
 
 #headingGroup1 h1 {
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 3vw;
     color: #EA1C2C;
 }
 
 #headingGroup1 h2 {
     font-weight: 100;
-    font-size: 1.125rem;
+    font-size: 1vw;
     color: #f498b8;
     line-height: 2;
 }
